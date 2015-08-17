@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5905F56E1B8254BA00BBE3D1 /* AGOpenCVHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5905F56C1B8254BA00BBE3D1 /* AGOpenCVHelper.cpp */; };
 		599A9D261B7B4001005B8B19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 599A9D251B7B4001005B8B19 /* main.cpp */; };
-		599A9D321B7B4153005B8B19 /* AGOpenCVHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 599A9D301B7B4153005B8B19 /* AGOpenCVHelper.cpp */; };
 		599A9E1F1B7B4183005B8B19 /* libopencv_calib3d.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 599A9D351B7B4182005B8B19 /* libopencv_calib3d.2.4.9.dylib */; };
 		599A9E201B7B4183005B8B19 /* libopencv_calib3d.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 599A9D361B7B4182005B8B19 /* libopencv_calib3d.2.4.dylib */; };
 		599A9E211B7B4183005B8B19 /* libopencv_calib3d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 599A9D371B7B4182005B8B19 /* libopencv_calib3d.dylib */; };
@@ -80,10 +80,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5905F56B1B8254BA00BBE3D1 /* AGDataStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGDataStructures.h; path = Helpers/AGDataStructures.h; sourceTree = "<group>"; };
+		5905F56C1B8254BA00BBE3D1 /* AGOpenCVHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AGOpenCVHelper.cpp; path = Helpers/AGOpenCVHelper.cpp; sourceTree = "<group>"; };
+		5905F56D1B8254BA00BBE3D1 /* AGOpenCVHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGOpenCVHelper.h; path = Helpers/AGOpenCVHelper.h; sourceTree = "<group>"; };
 		599A9D221B7B4001005B8B19 /* OpenCV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCV; sourceTree = BUILT_PRODUCTS_DIR; };
 		599A9D251B7B4001005B8B19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		599A9D301B7B4153005B8B19 /* AGOpenCVHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AGOpenCVHelper.cpp; path = Helper/AGOpenCVHelper.cpp; sourceTree = "<group>"; };
-		599A9D311B7B4153005B8B19 /* AGOpenCVHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGOpenCVHelper.h; path = Helper/AGOpenCVHelper.h; sourceTree = "<group>"; };
 		599A9D351B7B4182005B8B19 /* libopencv_calib3d.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.2.4.9.dylib; sourceTree = "<group>"; };
 		599A9D361B7B4182005B8B19 /* libopencv_calib3d.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.2.4.dylib; sourceTree = "<group>"; };
 		599A9D371B7B4182005B8B19 /* libopencv_calib3d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.dylib; sourceTree = "<group>"; };
@@ -390,8 +391,9 @@
 		599A9D2C1B7B407D005B8B19 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				599A9D301B7B4153005B8B19 /* AGOpenCVHelper.cpp */,
-				599A9D311B7B4153005B8B19 /* AGOpenCVHelper.h */,
+				5905F56B1B8254BA00BBE3D1 /* AGDataStructures.h */,
+				5905F56C1B8254BA00BBE3D1 /* AGOpenCVHelper.cpp */,
+				5905F56D1B8254BA00BBE3D1 /* AGOpenCVHelper.h */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -885,7 +887,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599A9D321B7B4153005B8B19 /* AGOpenCVHelper.cpp in Sources */,
+				5905F56E1B8254BA00BBE3D1 /* AGOpenCVHelper.cpp in Sources */,
 				599A9D261B7B4001005B8B19 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1023,6 +1025,7 @@
 				599A9D2B1B7B4001005B8B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

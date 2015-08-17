@@ -11,15 +11,17 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
-// images path
-static const std::string imagesPath = "/Users/aleksandergrzyb/Desktop/images/";
+static const std::string imagesPath = "";
 
 using namespace std;
 using namespace cv;
 
 int main(int argc, const char * argv[]) {
-    Mat image;
-    if (AGOpenCVHelper::loadImage(image, imagesPath + "image1.tif") != -1) {
-        AGOpenCVHelper::showImage(image, "image1");
-    }
 }
+
+
+
+
+
+
+
